@@ -1,0 +1,64 @@
+#pin-code {
+	background: #ededed;
+	font-size: 4em;
+	text-align: center;
+	border: 1px solid #d5d5d5;
+}
+
+.pin-button, .pin-clear, .pin-enter {
+    background-color: #fff;
+    background-size: 200% 200%;
+    width: 100%;
+    color: #7e7e7e;
+    border: 2px solid #ededed;
+    outline: none;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pin-button:hover {
+    border: 2px solid #506CE8;
+}
+
+.pin-button:active {
+ 	background: #506CE8;
+	color: #fff;
+}
+
+.pin-clear {
+    color: #ff3c41;
+    border: 2px solid #ff3c41;
+}
+
+.pin-clear:hover {
+ 	box-shadow: #ff3c41 0 0 1px 1px;
+}
+
+.pin-clear:active {
+ 	background: #ff3c41;
+	color: #fff;
+}
+
+.pin-enter {
+    color: #47cf73;
+    border: 2px solid #47cf73;
+}
+
+.pin-enter:hover {
+ 	box-shadow: #47cf73 0 0 1px 1px;
+}
+
+.pin-enter:active {
+ 	background: #47cf73;
+	color: #fff;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+}

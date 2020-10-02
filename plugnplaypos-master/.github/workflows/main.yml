@@ -1,0 +1,10 @@
+name: Deploy Workflow
+on: [push]
+
+jobs:
+  build:
+    name: Deploy Action
+    runs-on: self-hosted
+    steps:
+      - name: git pull to top-developer.net > plugnplaypos
+        run: sh ~/pnppos_git_pull.sh
